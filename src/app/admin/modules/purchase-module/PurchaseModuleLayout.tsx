@@ -8,7 +8,6 @@ import PaymentReceiptsComponent from "./paymentreceipts/PaymentReceiptsComponent
 import AllPurchasesComponent from "./all-purchases/AllPurchasesComponent";
 
 const purchaseRoutes = [
-    
     {
         name: "All Purchase Orders",
         path: "/",
@@ -16,6 +15,7 @@ const purchaseRoutes = [
         component: <AllPurchaseComponent />,
     },
     {
+
         name: "All Purchases ",
         path: "/All Purchases/:id",
         icon: <Icon as={MdList} width="20px" height="20px" color="inherit" />,
